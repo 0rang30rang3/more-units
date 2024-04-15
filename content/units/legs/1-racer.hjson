@@ -9,9 +9,9 @@ localizedName: Racer
             armor: 2
             rotateSpeed: 2.7
             legCount: 6
-            legMoveSpace: 0.8
+            legMoveSpace: 1.5
             legPairOffset: 2.3
-            legLength: 12
+            legLength: 8
             legExtension: -15
             legBaseOffset: 10
             stepShake :0.5
