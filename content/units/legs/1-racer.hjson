@@ -2,25 +2,22 @@ type:Legs
 localizedName: Racer
   description: 4 legs, all info u need.
   outlineColor: 42413e
-
-            drag = 0.1
-            speed = 0.62
-            hitSize = 14
-            health = 450
-            armor = 2
-
-            rotateSpeed = 2.7
-
-            legCount : 4
-            legMoveSpace : 1
-            legPairOffset : 3
-            legLength : 12
-            legExtension : -15
-            legBaseOffset : 10
-            stepShake : 1
-            legLengthScl : 0.96
-            rippleScale : 2
-            legSpeed : 0.2
+            drag: 0.1
+            speed: 0.62
+            hitSize: 14
+            health: 450
+            armor: 2
+            rotateSpeed: 2.7
+            legCount: 4
+            legMoveSpace: 1
+            legPairOffset: 3
+            legLength: 12
+            legExtension: -15
+            legBaseOffset: 10
+            stepShake :1
+            legLengthScl: 0.96
+            rippleScale: 2
+            legSpeed: 0.2
 
             hovering : true
             shadowElevation :0.65
