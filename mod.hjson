@@ -1,0 +1,5 @@
+name: more-units
+  displayName: More Units
+description: This HJSON mod adds units to Serpulo.
+  author: 0rang3
+  minGameVersion: 146
