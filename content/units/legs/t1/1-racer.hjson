@@ -1,6 +1,8 @@
+type: Legs
 localizedName: Racer
   description: 4 legs, all info u need.
-  
+  outlineColor: 42413e
+
             drag = 0.1
             speed = 0.62
             hitSize = 14
@@ -32,5 +34,36 @@ parent: ground-factory
   silicon/1200
   ]
   }
-weapons:{
-{
+weapons: [
+  {
+        name: 1-racer-gun
+    x: -2
+    y: 3
+recoil:4
+    reload: 10
+    mirror: true
+    rotate: false
+    ejectEffect: none
+    shootSound: shootAlt
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 4
+      lifetime: 80
+      damage: 8
+      width: 9
+      height: 10
+      pierceBuilding: false
+      pierce: true
+pierceCap:3
+      trailChance: -1
+      trailLength: 9
+trailWidth:3
+trailColor: fffdd0
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+      
+}
+}
+] 
